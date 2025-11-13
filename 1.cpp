@@ -8,17 +8,6 @@ void swap(int &a, int &b) {
 	b = temp;
 }
 
-void sort(int data[], int s){
-	for (int i = 0; i < s - 1; i++) {
-		for (int j = s - 1; j > i; j--) {
-			if (data[j] < data[j - 1]) {
-			swap(data[j], data[j - 1]);
-			}
-		}
-		cout << data[i];
-	}
-}
-
 int array(){
 	int N;
 	int arr[N];
