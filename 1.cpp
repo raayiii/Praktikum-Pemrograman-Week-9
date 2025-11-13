@@ -33,7 +33,7 @@ int array(){
 	cout << "Isi array: " << endl;
 	for (int i = 0; i < N; i++) {
 	cout << arr[i];
-	if (i < (N-1)) cout << " ";
+	if (i < (N-1)) cout << ", ";
 	}
 	
 	cout << endl;
@@ -48,7 +48,7 @@ int array(){
 	}
 	for (int i = 0; i < N; i++) {
 	cout << arr[i];
-	if (i < (N-1)) cout << " ";
+	if (i < (N-1)) cout << ", ";
 	}
 
 }
